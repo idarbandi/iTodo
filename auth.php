@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         if(!$result){
             message("Error: an error in Registration!");
         }else{
-            message("Registration is Successfull. Welcome to 7Todo .<br>
+            message("Registration is Successfull. Welcome to iTodo .<br>
             <a href='{$home_url}auth.php'>Please Login</a>
             ",'success');
         }

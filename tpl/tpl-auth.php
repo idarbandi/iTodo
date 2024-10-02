@@ -3,7 +3,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>7Todo Authentication</title>
+  <title>Signup</title>
   <link rel="stylesheet" href="<?= site_url('assets/css/auth.css') ?>">
 
 </head>
