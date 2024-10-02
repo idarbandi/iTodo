@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `folders`
 --
 
-CREATE TABLE `folder` (
+CREATE TABLE `folders` (
   `id` int(10) UNSIGNED NOT NULL,
   `name` varchar(128) CHARACTER SET utf8 NOT NULL,
   `user_id` int(11) NOT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE `folder` (
 -- Dumping data for table `folders`
 --
 
-INSERT INTO `folder` (`id`, `name`, `user_id`, `created_at`) VALUES
+INSERT INTO `folders` (`id`, `name`, `user_id`, `created_at`) VALUES
 (28, 'AF1111', 6, '2020-04-15 09:34:45');
 
 -- --------------------------------------------------------

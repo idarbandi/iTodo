@@ -3,5 +3,5 @@ $database_config = (object)[
     'host' => 'localhost',
     'user' => 'root',
     'pass' => '',
-    'db' => 'iTodo'
+    'db' => '7todo'
 ];

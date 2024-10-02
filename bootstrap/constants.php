@@ -1,5 +1,5 @@
 <?php
-define('SITE_TITLE','iTodo');
-define('BASE_URL','http://localhost/iTodo/');
-define('BASE_PATH','/opt/lampp/htdocs/iTodo/');
+define('SITE_TITLE','7Task Project');
+define('BASE_URL','http://localhost/7Learn.php/7Todo/');
+define('BASE_PATH','C:/xampp/htdocs/7Learn.php/7Todo/');
 
