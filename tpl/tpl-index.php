@@ -75,12 +75,12 @@
   </div>
 </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
   <script  src="assets/js/script.js"></script>
   <script>
     $(document).ready(function(){
-
       $('#addFolderBtn').click(function(e){
+          console.log("PES");
           var input = $('input#addFolderInput');
           $.ajax({
             url : "process/ajaxHandler.php",
@@ -102,7 +102,7 @@
               $.ajax({
               url : "process/ajaxHandler.php",
               method : "post",
-              data : {action: "addTask",folderId : <?= $_GET['folder_id']?> ,taskTitle: $('#taskNameInput').val()},
+              data : {action: "addTask",folderId: <?= $_GET['folder_id']?> ,taskTitle: $('#taskNameInput').val()},
               success : function(response){
                 if(response == '1'){
                   location.reload();
